@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+  <body>
+  	<div class="container-fluid">
+  	  <div class="container">
+  	    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><img src="images/th.jfif" alt="" width="100" height="99" class="img-fluid"/></a>
+  	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  	      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+  	        <ul class="navbar-nav mr-auto">
+  	          <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+  	          <li class="nav-item"> <a class="nav-link" href="physiques.html">physiques&nbsp;</a> </li>
+  	          <a class="nav-link" href="health & nutrition.html">health &amp; nutrition&nbsp;</a><a class="nav-link" href="Workouts.html">Workouts&nbsp;</a>
+  	          <li class="nav-item dropdown">
+  	            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+  	              <a class="dropdown-item" href="#">Something else here</a> </div>
+          </li>
+  	          <li class="nav-item"> </li>
+            </ul>
+  	        <form class="form-inline my-2 my-lg-0">
+            </form>
+          </div>
+        </nav>
+      </div>
+  	  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+  	    <ol class="carousel-indicators">
+  	      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+  	      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+  	      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+        </ol>
+  	    <div class="carousel-inner" role="listbox">
+  	      <div class="carousel-item active"> <img class="d-block mx-auto img-fluid" src="images/pic4.jpg" alt="First slide">
+  	        <div class="carousel-caption">
+  	          <h5>“You can have results or excuses. Not both.”</h5>
+  	          <p> – Arnold Schwarzenegger</p>
+            </div>
+          </div>
+  	      <div class="carousel-item"> <img class="d-block mx-auto  img-fluid" src="images/pic9.jpg" alt="Second slide">
+  	        <div class="carousel-caption">
+  	          <h5>“Success is usually the culmination of controlling failure.” </h5>
+  	          <p>– Sylvester Stallone</p>
+            </div>
+          </div>
+  	      <div class="carousel-item"> <img class="d-block mx-auto  img-fluid" src="images/pic8.jpg" alt="Third slide">
+  	        <div class="carousel-caption">
+  	          <h5>“Pain is weakness leaving the body.”</h5>
+  	          <p>- unknown</p>
+            </div>
+          </div>
+        </div>
+  	    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+      <h1 class="text-center">ZueZFit&nbsp;</h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card col-md-4 col-xl-8"> <img class="card-img-top" src="images/pic4.jpg"Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">physiques &nbsp;</h5>
+              <p class="card-text">We know the basics of bodybuilding, but at times we forget the details that can make a difference. Learn tips to get you to the next level.&nbsp;</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card col-md-4 col-xl-8"> <img class="card-img-top" src="images/pic8.jpg"images/pic10.jfif"  alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">health &amp; nutrition &nbsp;</h5>
+              <p class="card-text">Eating and exercise go hand in hand. When and what you eat can be important to how you feel when you exercise.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card col-md-4 col-xl-8"> <img class="card-img-top" src="images/pic9.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Workouts&nbsp;</h5>
+              <p class="card-text">None of us were born with six-pack abs, and none came into this world with a 250-pound bench press                           &nbsp;</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          </div>
+        </div>
+      </div>
+		<br>
+		<form id="contact" class="container" action="workoutform.php" method="post">
+    <fieldset>
+      <input name="name" type="text" autofocus required id="name" placeholder="Full name" tabindex="1">
+    </fieldset>
+	   <fieldset>
+      <input name="email" type="email" required id="email" placeholder="Your Email Address" tabindex="2">
+    </fieldset>
+	  <fieldset>
+      <input name="subject" type="text" autofocus required id="subject" placeholder="Subject" tabindex="3">
+    </fieldset>
+    <fieldset>
+      <textarea name="message" required id="message" placeholder="Type your Message Here...." tabindex="4"></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+      <div id="accordion1" role="tablist">
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne1">
+            <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> our mission&nbsp; </a> </h5>
+          </div>
+          <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+            <div class="card-body">At Gym and Fitness, we strive to provide you with a safe and supportive environment that encourages each individual to take control of their health, fitness, and overall wellbeing. Our mission is to help you reach your fitness goals through classes, equipment, trainers, and nutrition planning that fit your body and lifestyle.&nbsp;</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo1">
+            <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Events&nbsp; </a> </h5>
+          </div>
+          <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+            <div class="card-body">At Gym and Fitness, we strive to provide you with a safe and supportive environment that encourages each individual to take control of their health, fitness, and overall wellbeing. Our mission is to help you reach your fitness goals through classes, equipment, trainers, and nutrition planning that fit your body and lifestyle.</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingThree1">
+            <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> News&nbsp; </a> </h5>
+          </div>
+          <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+            <div class="card-body">At Gym and Fitness, we strive to provide you with a safe and supportive environment that encourages each individual to take control of their health, fitness, and overall wellbeing. Our mission is to help you reach your fitness goals through classes, equipment, trainers, and nutrition planning that fit your body and lifestyle.</div>
+          </div>
+        </div>
+      </div>
+Content for New footer Tag Goes Here
+      <div class="row">
+        <div class="col-xl-6"><img src="images/th.jfif" width="100" height="99" alt=""/></div>
+        <div class="col-xl-6">&nbsp;Copyrights All right reserved&nbsp;</div>
+      </div>
+  	</div>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
